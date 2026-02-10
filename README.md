@@ -15,12 +15,13 @@ This directory contains the core mathematical engines for the CSRG Lab's audit o
 ## 3. Formal Mathematical Proof: The Saturation Inflection Point
 
 The system exhibits **Priority Decay** governed by the equation:
+
 $$\Phi = \frac{W_{obs}}{W_{th}} \cdot (1 - \rho)^{-\alpha}$$
 
-Where:
-* **$\rho$ (Rho):** System Utilization (Current Load / Theoretical Capacity)
-* **$\alpha$ (Alpha):** Network Fragility Exponent (Derived as 2.5 for D2C corridors)
-* **$\Phi$ (Phi):** Probability of Systemic Failure / Priority Blindness
+### Variable Definitions:
+* **$\rho$ (Rho):** System Utilization (Current Load / Capacity).
+* **$\alpha$ (Alpha):** Fragility Exponent (Empirically derived as 2.5).
+* **$\Phi$ (Phi):** Probability of Systemic Failure / Priority Blindness.
 
 
 
