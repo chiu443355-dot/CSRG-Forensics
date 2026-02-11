@@ -23,7 +23,19 @@ $$\Phi = \frac{W_{obs}}{W_{th}} \cdot (1 - \rho)^{-\alpha}$$
 * **$\alpha$ (Alpha):** Fragility Exponent (Empirically derived as 2.5).
 * **$\Phi$ (Phi):** Probability of Systemic Failure / Priority Blindness.
 
+## 4. Empirical Evidence & Performance Benchmarks
 
+### Figure 1: The Phi (Φ) Decay Curve
+> *Verification of Systemic Failure at ρ = 0.85*
+![Phi Decay](phi_saturation_plot.png)
+
+### Figure 2: The Inverse Reliability Paradox
+> *Forensic proof that Premium shipments suffer a 64.9% failure rate during saturation surges.*
+![Paradox Plot](inverse_reliability_paradox.png)
+
+### Figure 3: DPR Framework Validation
+> *Backtesting proves an absolute reliability lift of 25%, effectively neutralizing the Paradox.*
+![DPR Lift](dpr_performance_lift.png)
 
 **Empirical Validation:** Analysis of $N=11,001$ records confirms that at $\rho \ge 0.85$, the value of $\Phi$ exceeds the "Predictive Horizon," resulting in a 64.9% failure rate for high-priority routing.
 ## Operational Requirements:
